@@ -1,9 +1,7 @@
 # Connect to your oVirt Host Server with VNC
-### From Windows 10
+## From Windows 10
 ![image](https://user-images.githubusercontent.com/52897657/82737389-d6f18480-9cfe-11ea-97c6-16a0f30fab80.png)    
-
-## Architecture of VNC Server
- 
+.
 ### Requirements
 Complete setup of CentOS/oVirt-node server (Visit github.com/kchoi85/thisrepositorytosetupcentosserver)  
 VNC Windows client (https://www.realvnc.com/en/connect/download/viewer/windows/)  
@@ -58,3 +56,6 @@ WantedBy=multi-user.target
 
 ### 9) Log into your server 
 Connect at `host_ip_addr:5901`
+
+## Architecture of VNC Server
+![image](https://user-images.githubusercontent.com/52897657/82737864-d27a9b00-9d01-11ea-8582-e690c13fcc57.png) 
