@@ -1,5 +1,5 @@
 # Connect to your oVirt Host Server with VNC
-> From Windows 10
+**From Windows 10**
 ![image](https://user-images.githubusercontent.com/52897657/82737389-d6f18480-9cfe-11ea-97c6-16a0f30fab80.png)    
 .
 ## Requirements
@@ -12,8 +12,8 @@
 ## 2) Copy the vncserver config files
 - `cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service`
 > Note 
--CentOS6.x version's config files are located at `/etc/sysconfig/vncservers`  
--CentOS7.x config files are located at `/lib/systemd/system/vncserver@.service`  
+> CentOS6.x version's config files are located at `/etc/sysconfig/vncservers`  
+> CentOS7.x config files are located at `/lib/systemd/system/vncserver@.service`  
 
 ## 3) Edit the copied config file
 - `vi /etc/systemd/system/vncserver@\:1.service`
