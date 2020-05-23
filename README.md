@@ -18,6 +18,7 @@
 ## 3) Edit the copied config file
 - `vi /etc/systemd/system/vncserver@\:1.service`  
 **Delete all the contents with `dd` command and paste the following:**  
+```shell
 User=root  
 [Unit]    
 Description=Remote desktop service (VNC)  
@@ -30,6 +31,7 @@ PIDFile=/root/.vnc/%H%i.pid
 ExecStop=/bin/sh -c '/usr/bin/vncserver -kill %i > /dev/null 2>&1 || :'  
 [Install]  
 WantedBy=multi-user.target
+```
 
 ## 4) Restart the daemon and enable vncserver
 - `systemctl daemon-reload`  
