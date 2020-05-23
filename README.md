@@ -1,6 +1,6 @@
 # Connecting to CentOS/oVirt-Engine Server with VNC
 ### From Windows 10
-![image](https://user-images.githubusercontent.com/52897657/82737389-d6f18480-9cfe-11ea-97c6-16a0f30fab80.png)    
+![image](https://user-images.githubusercontent.com/52897657/82738442-95180c80-9d05-11ea-85f4-7d89f0333a4b.png) 
 .
 ## Requirements
 - Complete setup of CentOS/oVirt-node server (Visit github.com/kchoi85/thisrepositorytosetupcentosserver)  
