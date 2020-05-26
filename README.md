@@ -59,7 +59,8 @@ WantedBy=multi-user.target
 - `systemctl restart iptables.service `
 
 ## 9) Log into your server 
-- Connect at `host_ip_addr:5901`
+- Using the Windows VNC Client, connect to your server at `host_ip_addr:5901`  
+> For ex: 192.168.2.16:5901
 
 ---
 
