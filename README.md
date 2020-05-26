@@ -39,6 +39,8 @@ WantedBy=multi-user.target
 - `systemctl daemon-reload`  
 - `systemctl enable vncserver@:1.service`
 
+> Note: To kill a VNC session, run:  ```vncserver -kill :session_number```
+
 ## 5) Start the VNC Server (Input new password for login)
 - `vncserver`
 
